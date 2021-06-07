@@ -38,7 +38,9 @@ a{
 
 /* Reusable classes */
 .container{
+    max-width: 1300px;
     padding: 2% 4%;
+    margin: 0 auto;
 }
 
 .btn{
@@ -58,6 +60,8 @@ a{
 header{
     width: 100%;
     background-color: #1c1c1c;
+}
+header div.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,7 +78,6 @@ header div.title h1:hover{
     transform: scale(1.05);
     transition: all .2s ease;
 }
-
 .elements{
     display: flex;
     align-items: center;

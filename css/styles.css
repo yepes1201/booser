@@ -1,0 +1,111 @@
+/* Variables */
+:root{
+    --redish-color: #f39189;
+    --dark-color: #1c1c1c;
+    --brand-font: 'Comfortaa', sans-serif;
+    --title-font: 'Poppins', sans-serif;
+    --info-font: 'Roboto', sans-serif;
+    --hover-tag: rgb(214,214,214);
+    --hover-btn: #e46f64;
+}
+/* Pre-styles */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: var(--brand-font);
+    font-weight: 300;
+    color: white;
+}
+
+h2{
+    font-family: var(--title-font);
+    font-weight: 800;
+}
+
+p{
+    font-family: var(--info-font);
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+/* Reusable classes */
+.container{
+    padding: 2% 4%;
+}
+
+.btn{
+    background-color: var(--redish-color);
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+
+.unfilled-btn{
+    border: 1px solid var(--redish-color);
+    color: var(--redish-color);
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+/* Header */
+header{
+    width: 100%;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header hr{
+    margin: 0 40px;
+    height: 40px;
+    border: 1px solid grey;
+}
+header div.title h1{
+    transition: all .2s ease;
+}
+header div.title h1:hover{
+    transform: scale(1.05);
+    transition: all .2s ease;
+}
+
+.elements{
+    display: flex;
+    align-items: center;
+}
+
+.elements nav a{
+    font-size: 0.9rem;
+    font-family: var(--title-font);
+    font-weight: 300;
+    margin-left: 20px;
+    transition: all .2s ease;
+}
+
+.elements nav a:hover{
+    color: var(--hover-tag);
+    transition: all .2s ease;
+}
+
+.elements div.buttons a{
+    font-family: var(--title-font);
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.elements div.buttons a:hover{
+    background-color: var(--hover-btn);
+}
+
+.elements div.buttons a.unfilled-btn:hover{
+    border: 1px solid var(--hover-btn);
+    background-color: var(--hover-btn);
+    color: white;
+    transition: all 0.2s ease;
+}

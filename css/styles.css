@@ -7,6 +7,8 @@
     --info-font: 'Roboto', sans-serif;
     --hover-tag: rgb(214,214,214);
     --hover-btn: #e46f64;
+    --hover-dark-btn: #333538;
+    --info-color:#9f9f9f;
 }
 /* Pre-styles */
 *{
@@ -20,12 +22,17 @@ h1{
     color: white;
 }
 
-h2{
+h2, h3{
     font-family: var(--title-font);
     font-weight: 800;
 }
 
+h3{
+    font-weight: 600;
+}
+
 p{
+    color: var(--info-color);
     font-family: var(--info-font);
     font-weight: 400;
 }
@@ -45,7 +52,8 @@ a{
 
 .btn{
     background-color: var(--redish-color);
-    padding: 10px 35px;
+    font-family: var(--title-font);
+    padding: 10px 25px;
     border-radius: 5px;
 }
 
@@ -72,6 +80,7 @@ header hr{
     border: 1px solid grey;
 }
 header div.title h1{
+    letter-spacing: 0.3rem;
     transition: all .2s ease;
 }
 header div.title h1:hover{
@@ -97,7 +106,6 @@ header div.title h1:hover{
 }
 
 .elements div.buttons a{
-    font-family: var(--title-font);
     font-size: 0.9rem;
     transition: all 0.2s ease;
 }
@@ -111,4 +119,91 @@ header div.title h1:hover{
     background-color: var(--hover-btn);
     color: white;
     transition: all 0.2s ease;
+}
+
+/* Showcase */
+#showcase{
+    position: relative;
+    background-color: var(--redish-color);
+    height: 80vh;
+}
+
+#showcase .container{
+    height: 100%;
+}
+
+#showcase .btn{
+    background-color: var(--dark-color);
+    margin-right: 10px;
+    transition: all .2s ease;
+}
+
+#showcase .btn:hover{
+    background-color: var(--hover-dark-btn);
+    transition: all .2s ease;
+}
+#showcase .unfilled-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: all .2s ease;
+}
+#showcase .unfilled-btn:hover{
+    background-color: white;
+    color: var(--dark-color);
+}
+#showcase i{
+    margin-right: 8px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+.grid div:first-child{
+    position: relative;
+    top: 50%;
+    transform: translateY(-25%);
+}
+
+.grid h2{
+    font-size: 3.15rem;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.grid img{
+    position: absolute;
+    transform: rotate(10deg);
+    width: 250px;
+    right: 18%;
+}
+
+/* Benefits Section */
+#benefits{
+    height: 100%;
+    position: relative;
+    background-color: white;
+    padding: 6.5% 0;
+    z-index: 10;
+}
+#benefits .flex{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#benefits i{
+    color: var(--redish-color);
+    margin-bottom: 8px;
+    transition: all .2s ease;
+}
+#benefits i:hover{
+    color: var(--hover-btn);
+    transition: all .2s ease;
+}
+.flex div{
+    width: 200px;
+    margin: 0 1rem;
 }

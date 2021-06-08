@@ -1,0 +1,11 @@
+@media screen and (max-width:750px){
+    /* Header */
+
+    /* Benefits Section */
+    #benefits .flex{
+        display: block;
+    }
+    .flex div{
+        margin: 2rem auto;
+    }
+}

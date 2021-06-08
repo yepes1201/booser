@@ -4,6 +4,7 @@
     --dark-color: #1c1c1c;
     --grey-color: #e1e1e1;
     --info-color:#9f9f9f;
+    --hover-grey-btn:#cccccc;
     --hover-tag: rgb(214,214,214);
     --hover-btn: #e46f64;
     --hover-dark-btn: #333538;
@@ -42,6 +43,89 @@ a{
     text-decoration: none;
     list-style: none;
     color: white;
+}
+/* Responsive */
+#menu{
+    background-color: var(--grey-color);
+    position: fixed;
+    z-index: 9999;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    transform: translateX(200px);
+}
+.resp-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.resp-menu hr{
+    border: 1px solid black;
+}
+
+.resp-menu i{
+    position: relative;
+    left: 40%;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.resp-menu i:hover{
+    color: var(--hover-dark-btn);
+}
+
+.resp-menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+.resp-menu li{
+    margin: 20px 0;
+}
+
+.resp-menu li:active{
+    background-color: var(--info-color);
+}
+
+.resp-menu li a{
+    color: var(--dark-color);
+    width: 100%;
+    font-size: 0.9rem;
+    font-family: var(--title-font);
+    font-weight: 300;
+}
+
+.resp-menu li a:hover{
+    color: var(--hover-dark-btn);
+}
+
+.resp-menu .btn{
+    margin: 10px auto;
+    width: 70%;
+    background-color: var(--dark-color);
+    transition: all .2s ease;
+}
+
+.resp-menu a.unfilled-btn{
+    background: white;
+    border: none;
+    color: black;
+    transition: all .2s ease;
+}
+
+.resp-menu a.btn:hover{
+    background-color: var(--hover-dark-btn);
+    transition: all .2s ease;
+}
+
+.resp-menu a.unfilled-btn:hover{
+    border: none;
+    background-color: var(--hover-grey-btn);
+    color: black;
+    transition: all .2s ease;
 }
 
 /* Reusable classes */

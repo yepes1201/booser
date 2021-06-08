@@ -2,13 +2,13 @@
 :root{
     --redish-color: #f39189;
     --dark-color: #1c1c1c;
-    --brand-font: 'Comfortaa', sans-serif;
-    --title-font: 'Poppins', sans-serif;
-    --info-font: 'Roboto', sans-serif;
+    --info-color:#9f9f9f;
     --hover-tag: rgb(214,214,214);
     --hover-btn: #e46f64;
     --hover-dark-btn: #333538;
-    --info-color:#9f9f9f;
+    --brand-font: 'Comfortaa', sans-serif;
+    --title-font: 'Poppins', sans-serif;
+    --info-font: 'Roboto', sans-serif;
 }
 /* Pre-styles */
 *{

@@ -2,6 +2,7 @@
 :root{
     --redish-color: #f39189;
     --dark-color: #1c1c1c;
+    --grey-color: #e1e1e1;
     --info-color:#9f9f9f;
     --hover-tag: rgb(214,214,214);
     --hover-btn: #e46f64;
@@ -11,7 +12,7 @@
     --info-font: 'Roboto', sans-serif;
 }
 /* Pre-styles */
-*{
+*, ::after, ::before{
     margin: 0;
     box-sizing: border-box;
 }
@@ -62,6 +63,10 @@ a{
     color: var(--redish-color);
     background-color: transparent;
     margin-right: 10px;
+}
+
+.title{
+    letter-spacing: 0.3rem;
 }
 
 /* Header */
@@ -175,8 +180,9 @@ header div.title h1:hover{
 
 .grid img{
     position: absolute;
+    top: 10%;
     transform: rotate(10deg);
-    width: 250px;
+    width: 20%;
     right: 18%;
 }
 
@@ -206,4 +212,112 @@ header div.title h1:hover{
 .flex div{
     width: 200px;
     margin: 0 1rem;
+}
+
+/* Pricing Section */
+#pricing{
+    background-color: var(--grey-color);
+    text-align: center;
+}
+
+#pricing h2{
+    font-size: 3rem;
+}
+
+#pricing h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.card{
+    width: 250px;
+    height: 310px;
+    margin: 3rem 15px;
+    background: white;
+    border-radius: 5px;
+}
+
+.card-cont{
+    display: flex;
+}
+
+.card h4{
+    font-size: 1.3rem;
+    font-family: var(--info-font);
+    padding-top: 10px;
+}
+
+.card h4::after{
+    content: "";
+    display: block;
+    border: 1px solid var(--grey-color);
+    margin-top: 10px;
+}
+.card-info{
+    padding-top: 20px;
+}
+.card-info h5{
+    font-size: 1.6rem;
+    font-family: var(--info-font);
+    margin-bottom: 10px;
+}
+
+.card-info p{
+    margin: 8px 0;
+}
+
+.card a{
+    background-color: var(--dark-color);
+    font-family: var(--title-font);
+    position: relative;
+    top: 15px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all .2s ease;
+}
+
+.card a:hover{
+    background-color: var(--hover-dark-btn);
+    transition: all .2s ease;
+}
+
+/* Footer */
+footer{
+    background-color: var(--dark-color);
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h1{
+    margin-bottom: 10px;
+    transition: all .2s ease;
+}
+
+footer h1:hover{
+    transform: scale(1.05);
+    transition: all .2s ease;
+}
+
+footer p{
+    font-weight: 300;
+    font-size: 0.85rem;
+}
+
+footer i{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .2s ease;
+}
+
+footer i:hover{
+    color: var(--hover-btn);
+    transition: all .2s ease;
 }

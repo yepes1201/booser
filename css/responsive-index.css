@@ -1,4 +1,8 @@
 @media screen and (max-width:900px) {
+    /* Responsive Menu */
+    #open-menu{
+        display: none;
+    }
     /* Showcase Section */
     #showcase{
         text-align: center;

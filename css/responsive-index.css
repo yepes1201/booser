@@ -1,5 +1,37 @@
+@media screen and (max-width:900px) {
+    /* Showcase Section */
+    #showcase{
+        text-align: center;
+        height: 800px;
+    }
+    #showcase .grid{
+        grid-template-columns: 1fr;
+    }
+
+    #showcase .grid div:first-child{
+        transform: translateY(-50%);
+        margin-bottom: 65px;
+    }
+
+    #showcase .grid img{
+        position: static;
+        right: 0;
+        width: 200px;
+        transform: rotate(0);
+    }
+}
+
+
 @media screen and (max-width:750px){
+    /* Responsive Menu */
+    #open-menu{
+        display: block;
+    }
+    
     /* Header */
+    header .elements{
+        display: none;
+    }
 
     /* Benefits Section */
     #benefits .flex{

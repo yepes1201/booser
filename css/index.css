@@ -57,6 +57,19 @@ a{
     color: black;
     transform: translateX(200px);
 }
+
+#open-menu{
+    display: none;
+    position: absolute;
+    color: white;
+    left: -50px;
+    top: 3.5%;
+    cursor: pointer;
+    background-color: var(--hover-dark-btn);
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
 .resp-menu{
     display: flex;
     flex-direction: column;
@@ -156,12 +169,21 @@ a{
 /* Header */
 header{
     width: 100%;
+    height: 80px;
     background-color: #1c1c1c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 header div.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0% 4%;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
 }
 header hr{
     margin: 0 40px;
@@ -213,6 +235,7 @@ header div.title h1:hover{
 /* Showcase */
 #showcase{
     position: relative;
+    margin-top: 80px;
     background-color: var(--redish-color);
     height: 80vh;
 }

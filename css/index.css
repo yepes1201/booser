@@ -71,7 +71,7 @@ a{
     right: 20px;
     cursor: pointer;
     background-color: var(--hover-dark-btn);
-    padding: 10px 15px;
+    padding: 10px 16px;
     border-radius: 50%;
     transition: all .2s ease;
 }
@@ -109,11 +109,12 @@ a{
 }
 
 .resp-menu li{
-    margin: 20px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--hover-grey-btn);
 }
 
-.resp-menu li:active{
-    background-color: var(--info-color);
+.resp-menu li:hover{
+    background-color: var(--hover-grey-btn);
 }
 
 .resp-menu li a{

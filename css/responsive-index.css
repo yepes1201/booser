@@ -1,57 +1,57 @@
-@media screen and (max-device-width: 480px) {
-    #open-menu:active{
+@media (hover:hover) {
+    #open-menu:hover{
         background-color: var(--hover-btn);
         transition: all .2s ease;
     }
-    .resp-menu i:active{
+    .resp-menu i:hover{
         color: var(--hover-dark-btn);
     }
-    .resp-menu li:active{
+    .resp-menu li:hover{
         background-color: var(--hover-grey-btn);
     }
-    .resp-menu li a:active{
+    .resp-menu li a:hover{
         color: var(--hover-dark-btn);
     }
-    .resp-menu a.btn:active{
+    .resp-menu a.btn:hover{
         background-color: var(--hover-dark-btn);
         transition: all .2s ease;
     }
-    .resp-menu a.unfilled-btn:active{
+    .resp-menu a.unfilled-btn:hover{
         border: none;
         background-color: var(--hover-grey-btn);
         color: black;
         transition: all .2s ease;
     }
-    header div.title h1:active{
+    header div.title h1:hover{
         transform: scale(1.05);
         transition: all .2s ease;
     }
-    .elements nav a:active{
+    .elements nav a:hover{
         color: var(--hover-tag);
         transition: all .2s ease;
     }
-    .elements div.buttons a:active{
+    .elements div.buttons a:hover{
         background-color: var(--hover-btn);
     }
-    .elements div.buttons a.unfilled-btn:active{
+    .elements div.buttons a.unfilled-btn:hover{
         border: 1px solid var(--hover-btn);
         background-color: var(--hover-btn);
         color: white;
         transition: all 0.2s ease;
     }
-    #showcase .btn:active{
+    #showcase .btn:hover{
         background-color: var(--hover-dark-btn);
         transition: all .2s ease;
     }
-    #showcase .unfilled-btn:active{
+    #showcase .unfilled-btn:hover{
         background-color: white;
         color: var(--dark-color);
     }
-    #benefits i:active{
+    #benefits i:hover{
         color: var(--hover-btn);
         transition: all .2s ease;
     }
-    .card a:active{
+    .card a:hover{
         background-color: var(--hover-dark-btn);
         transition: all .2s ease;
     }

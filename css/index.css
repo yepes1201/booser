@@ -76,7 +76,7 @@ a{
     transition: all .2s ease;
 }
 
-#open-menu:hover{
+#open-menu:active{
     background-color: var(--hover-btn);
     transition: all .2s ease;
 }
@@ -99,7 +99,7 @@ a{
     font-size: 1.5rem;
     cursor: pointer;
 }
-.resp-menu i:hover{
+.resp-menu i:active{
     color: var(--hover-dark-btn);
 }
 
@@ -113,7 +113,7 @@ a{
     border-bottom: 1px solid var(--hover-grey-btn);
 }
 
-.resp-menu li:hover{
+.resp-menu li:active{
     background-color: var(--hover-grey-btn);
 }
 
@@ -125,7 +125,7 @@ a{
     font-weight: 300;
 }
 
-.resp-menu li a:hover{
+.resp-menu li a:active{
     color: var(--hover-dark-btn);
 }
 
@@ -143,12 +143,12 @@ a{
     transition: all .2s ease;
 }
 
-.resp-menu a.btn:hover{
+.resp-menu a.btn:active{
     background-color: var(--hover-dark-btn);
     transition: all .2s ease;
 }
 
-.resp-menu a.unfilled-btn:hover{
+.resp-menu a.unfilled-btn:active{
     border: none;
     background-color: var(--hover-grey-btn);
     color: black;
@@ -208,7 +208,7 @@ header div.title h1{
     letter-spacing: 0.3rem;
     transition: all .2s ease;
 }
-header div.title h1:hover{
+header div.title h1:active{
     transform: scale(1.05);
     transition: all .2s ease;
 }
@@ -225,7 +225,7 @@ header div.title h1:hover{
     transition: all .2s ease;
 }
 
-.elements nav a:hover{
+.elements nav a:active{
     color: var(--hover-tag);
     transition: all .2s ease;
 }
@@ -235,11 +235,11 @@ header div.title h1:hover{
     transition: all 0.2s ease;
 }
 
-.elements div.buttons a:hover{
+.elements div.buttons a:active{
     background-color: var(--hover-btn);
 }
 
-.elements div.buttons a.unfilled-btn:hover{
+.elements div.buttons a.unfilled-btn:active{
     border: 1px solid var(--hover-btn);
     background-color: var(--hover-btn);
     color: white;
@@ -264,7 +264,7 @@ header div.title h1:hover{
     transition: all .2s ease;
 }
 
-#showcase .btn:hover{
+#showcase .btn:active{
     background-color: var(--hover-dark-btn);
     transition: all .2s ease;
 }
@@ -274,7 +274,7 @@ header div.title h1:hover{
     color: white;
     transition: all .2s ease;
 }
-#showcase .unfilled-btn:hover{
+#showcase .unfilled-btn:active{
     background-color: white;
     color: var(--dark-color);
 }
@@ -326,7 +326,7 @@ header div.title h1:hover{
     margin-bottom: 8px;
     transition: all .2s ease;
 }
-#benefits i:hover{
+#benefits i:active{
     color: var(--hover-btn);
     transition: all .2s ease;
 }
@@ -401,7 +401,7 @@ header div.title h1:hover{
     transition: all .2s ease;
 }
 
-.card a:hover{
+.card a:active{
     background-color: var(--hover-dark-btn);
     transition: all .2s ease;
 }
@@ -423,7 +423,7 @@ footer h1{
     transition: all .2s ease;
 }
 
-footer h1:hover{
+footer h1:active{
     transform: scale(1.05);
     transition: all .2s ease;
 }
@@ -442,7 +442,7 @@ footer i{
     transition: all .2s ease;
 }
 
-footer i:hover{
+footer i:active{
     color: var(--hover-btn);
     transition: all .2s ease;
 }

@@ -11,21 +11,21 @@
 
 @media screen and (max-width: 620px){
     #download h1{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     #download h3{
-        font-size: 0.85rem;
+        font-size: 1rem;
     }
     #download a{
         font-size: .85rem;
     }
 
     #listany .container{
-        padding: 30px;
+        padding: 30px 0;
     }
 
     #listany h2{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     #listany ul{

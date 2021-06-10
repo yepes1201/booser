@@ -1,0 +1,38 @@
+@media (hover:hover){
+    #download a:hover{
+        background-color: var(--grey-color);
+        transition: all .2s ease-in;
+    }
+    #listany li:hover{
+        color: var(--redish-color);
+        transition: all .2s ease-in;
+    }
+}
+
+@media screen and (max-width: 620px){
+    #download h1{
+        font-size: 1.5rem;
+    }
+    #download h3{
+        font-size: 0.85rem;
+    }
+    #download a{
+        font-size: .85rem;
+    }
+
+    #listany .container{
+        padding: 30px;
+    }
+
+    #listany h2{
+        font-size: 1.5rem;
+    }
+
+    #listany ul{
+        display: block;
+    }
+
+    #listany li{
+        margin: 10px 0;
+    }
+}

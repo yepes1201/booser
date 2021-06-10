@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+
+/* Download Section */
+#download{
+    margin-top: 80px;
+    background-color: var(--redish-color);
+    height: 86vh;
+}
+
+#download .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#download img{
+    width: 250px;
+}
+
+#download h1{
+    font-family: var(--title-font);
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+#download h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#download a{
+    background-color: white;
+    color: black;
+    transition: all .2s ease-in;
+}
+
+/* Listen anywhere Section */
+#listany{
+    background-color: #272727;
+    color: white;
+    padding: 20px;
+}
+#listany .container{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#listany h2{
+    font-size: 2.5rem;
+    padding: 10px 0;
+}
+
+#listany ul{
+    display: flex;
+    padding: 10px 0;
+}
+
+#listany li{
+    text-transform: uppercase;
+    color: var(--grey-color);
+    margin: 0 10px;
+    font-family: var(--info-font);
+    transition: all .2s ease-in;
+}

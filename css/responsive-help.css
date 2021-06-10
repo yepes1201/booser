@@ -1,0 +1,22 @@
+@media (hover:hover){
+    #help a.btn:hover{
+        background-color: rgb(214, 214, 214);
+    }
+}
+
+@media screen and (max-width: 500px){
+    #help div.inputBoxOne{
+        display: block;
+    }
+
+    #help div.inputBoxOne input:first-child{
+        margin: 10px 0 0 0;
+    }
+    #help div.inputBoxOne input:last-child{
+        margin-bottom: 20px;
+    }
+    
+    #help h2{
+        font-size: 2rem;
+    }
+}

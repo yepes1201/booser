@@ -1,0 +1,58 @@
+body ::placeholder{
+    font-family: var(--info-font);
+}
+
+#help{
+    height: 86vh;
+    background-color: var(--redish-color);
+    margin-top: 80px;
+}
+
+#help .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#help .inputBoxOne{
+    width: 62%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#help .inputBoxOne input{
+    width: 100%;
+}
+
+#help .inputBoxOne input:first-child{
+    margin-right: 20px;
+}
+
+#help h2{
+    font-size: 3rem;
+}
+
+#help input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+#help textarea{
+    width: 62%;
+    border: none;
+    border-radius: 5px;
+}
+
+#help textarea::placeholder{
+    padding: 5px;
+}
+
+#help a.btn{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+}

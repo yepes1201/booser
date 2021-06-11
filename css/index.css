@@ -12,6 +12,11 @@
     --title-font: 'Poppins', sans-serif;
     --info-font: 'Roboto', sans-serif;
 }
+/* Global Styles */
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
 /* Pre-styles */
 *, ::after, ::before{
     margin: 0;

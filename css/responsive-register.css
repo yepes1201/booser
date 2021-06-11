@@ -1,0 +1,13 @@
+@media (hover:hover){
+    #register .btn:hover{
+        background-color: var(--hover-btn);
+    }
+}
+@media screen and (max-width: 460px) {
+    #register .container div{
+        width: 280px;
+    }
+    #register .container div input{
+        width: 210px;
+    }
+}

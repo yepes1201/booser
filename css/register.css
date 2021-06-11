@@ -1,0 +1,55 @@
+#register{
+    margin-top: 80px;
+    height: 86vh;
+    background-color: var(--redish-color);
+}
+#register .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#register h2{
+    font-size: 3rem;
+    padding: 20px 0;
+    color: rgb(240, 240, 240);
+}
+
+#register .container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 385px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#register .container div input{
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-bottom: 1px solid grey;
+    margin: 10px 0;
+    width: 250px;
+    padding: 10px 0;
+}
+
+#register .btn{
+    margin: 10px 0;
+}
+
+#register .default-atag{
+    text-decoration: underline;
+    color: royalblue;
+    padding: 10px 0;
+}
+
